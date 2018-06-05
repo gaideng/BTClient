@@ -391,17 +391,17 @@ public class BTClient extends Activity {
      */
     public static boolean checkCRC(byte[] crcBytes) {
         //获取crc效验
-        if (crcBytes == null || crcBytes.length < 2) return false;
-        int lenAll = crcBytes.length;
-        byte[] noCrcBytes = new byte[lenAll - 2];
-        System.arraycopy(crcBytes, 0, noCrcBytes, 0, lenAll - 2);
-        int crc = CRC16.calcCrc16(noCrcBytes);
-        byte[] newCrcs = MyByte.hexStringToBytes(String.format("%04x", crc));
-        if (newCrcs[1] == crcBytes[lenAll - 2] || newCrcs[0] == crcBytes[lenAll - 2]) {
-            return true;
-        } else {
+//        if (crcBytes == null || crcBytes.length < 2) return false;
+//        int lenAll = crcBytes.length;
+//        byte[] noCrcBytes = new byte[lenAll - 2];
+//        System.arraycopy(crcBytes, 0, noCrcBytes, 0, lenAll - 2);
+//        int crc = CRC16.calcCrc16(noCrcBytes);
+//        byte[] newCrcs = MyByte.hexStringToBytes(String.format("%04x", crc));
+//        if (newCrcs[1] == crcBytes[lenAll - 2] || newCrcs[0] == crcBytes[lenAll - 2]) {
+//            return true;
+//        } else {
             return false;
-        }
+//        }
     }
 
     public static String bytesToHexString(byte[] bytes) {
