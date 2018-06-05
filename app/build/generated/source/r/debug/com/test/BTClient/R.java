@@ -20,18 +20,20 @@ public final class R {
     public static final int Edit0=0x7f020005;
     public static final int ScrollView01=0x7f020006;
     public static final int Text0=0x7f020007;
-    public static final int button_cancel=0x7f020008;
-    public static final int button_scan=0x7f020009;
-    public static final int clear=0x7f02000a;
-    public static final int in=0x7f02000b;
-    public static final int new_devices=0x7f02000c;
-    public static final int paired_devices=0x7f02000d;
-    public static final int quit=0x7f02000e;
-    public static final int save=0x7f02000f;
-    public static final int scan=0x7f020010;
-    public static final int sname=0x7f020011;
-    public static final int title_new_devices=0x7f020012;
-    public static final int title_new_devices2=0x7f020013;
+    public static final int btnStart=0x7f020008;
+    public static final int btnStop=0x7f020009;
+    public static final int button_cancel=0x7f02000a;
+    public static final int button_scan=0x7f02000b;
+    public static final int clear=0x7f02000c;
+    public static final int in=0x7f02000d;
+    public static final int new_devices=0x7f02000e;
+    public static final int paired_devices=0x7f02000f;
+    public static final int quit=0x7f020010;
+    public static final int save=0x7f020011;
+    public static final int scan=0x7f020012;
+    public static final int sname=0x7f020013;
+    public static final int title_new_devices=0x7f020014;
+    public static final int title_new_devices2=0x7f020015;
   }
   public static final class layout {
     public static final int device_list=0x7f030000;

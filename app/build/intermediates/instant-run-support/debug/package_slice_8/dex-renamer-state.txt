@@ -1,4 +1,0 @@
-#Wed May 30 20:14:24 CST 2018
-base.0=D\:\\YingSoft\\BTClient\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
-path.0=classes.dex
-renamed.0=classes.dex

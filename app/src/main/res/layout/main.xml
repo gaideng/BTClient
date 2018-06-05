@@ -116,4 +116,27 @@
 			android:onClick="onQuitButtonClicked"
 			android:text="退出"></Button>
     </LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		>
+
+		<Button
+			android:id="@+id/btnStart"
+			style="@android:style/Widget.Button"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:onClick="onStartButtonClicked"
+			android:text="启动"></Button>
+		<Button
+			android:id="@+id/btnStop"
+			style="@android:style/Widget.Button"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:onClick="onStopButtonClicked"
+			android:text="停止"></Button>
+	</LinearLayout>
 </LinearLayout>
