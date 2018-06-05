@@ -380,7 +380,6 @@ public class BTClient extends Activity {
         }
         byte end = (byte) (sum & 0xff);
         return end;
-
     }
 
     /**
